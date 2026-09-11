@@ -1,0 +1,10 @@
+# Godot editor cache (regenerated on import, do not commit)
+.godot/
+
+# Export builds
+build/
+
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+.vscode/
