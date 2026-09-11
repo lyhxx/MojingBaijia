@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly.
+
+config_version=5
+
+[application]
+
+config/name="MojingBaijia"
+config/description="墨境百家 Mojing Baijia — ink-wash survivors. Vol.1 Mohist Academy."
+run/main_scene="res://scenes/menu.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+
+[autoload]
+
+GameState="*res://scripts/game_state.gd"
+AudioMan="*res://scripts/audio_man.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.92, 0.88, 0.78, 1)

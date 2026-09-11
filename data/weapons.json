@@ -1,0 +1,9 @@
+{
+  "qingfeng": {"name": "青锋印", "desc": "追踪飞剑", "base": 12},
+  "zhenyue": {"name": "镇岳印", "desc": "天降绿印AOE", "base": 26},
+  "zhumo": {"name": "逐墨印", "desc": "环绕墨剑", "base": 10},
+  "shehun": {"name": "摄魂印", "desc": "链式魂蚀", "base": 18},
+  "passives": ["养浩体", "墨守御", "观心明", "通玄行"],
+  "boss": {"name": "无字判官", "hp": 9000, "at": 600},
+  "win": "10:00判官登场，击杀即通关"
+}
