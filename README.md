@@ -45,7 +45,7 @@ data/weapons.json      武器名/数值/通关条件速查
 art/                   预留（当前美术全是代码绘制，无外部贴图）
 audio/                 10 个程序化 WAV（剑/印/拾取/升级/宝箱/链/吼/核弹/BGM）
 tools/gen_audio.py     音频再生脚本 / check_static.py 静态检查脚本
-docs/DEV.md            开发文档（架构+加新内容 SOP+坑）
+docs/              DEV.md 开发文档 / GDD.md 需求与背景文档（先看这份再动手）
 ```
 
 ## 换电脑继续开发（迁移步骤）
